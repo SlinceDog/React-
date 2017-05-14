@@ -1,5 +1,4 @@
 # ReactNative采坑之旅
-
 - 常见错误
 1、react native - expected a component class, got [object Object]
 该错误可能是你引用了小写的组件，组件首字母一定要大写，例如：`<view>   </view> `这样的写法是错误的，正确写法：`<View>   </View>`
